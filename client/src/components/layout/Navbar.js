@@ -1,9 +1,10 @@
-import React, {Component} from "react";
-import {Link} from "react-router-dom";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
     render(){
         return (
+            // <BrowserRouter>
             <div className="navbar-fixed">
                 <nav className="z-depth-0">
                     <Link 
@@ -18,6 +19,7 @@ class Navbar extends Component {
                     </Link>
                 </nav>
             </div>
+            // </BrowserRouter>
         );
     }
 }
